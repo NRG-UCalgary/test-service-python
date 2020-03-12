@@ -19,8 +19,9 @@ TBD
 ## Commit Message Convention
 Use this [description](https://gist.github.com/mithi/33b0e9426c6ba378807304dfb5e7d566)
 ## Features
+- JSON data containing a 'name' field, sent via POST, will be returned to the user as a string.
 ### To be Implemented 
-- Echo the string
+- Returning a JSON response
 - Logging connections
 ## Code Style
 PEP 8 should be followed at all times; the `pycodestyle` linter can be used to ensure code is PEP 8 compliant, and can be installed via `pip`.
